@@ -1,0 +1,1 @@
+This repository demonstrates an uncommon and subtle bug in Ruby related to unexpected behavior when mixing assignment and method calls in output. The example involves a simple class with a getter and setter, where modifying the value via the setter in the context of the method call leads to output that might be unintuitive or difficult to debug.
